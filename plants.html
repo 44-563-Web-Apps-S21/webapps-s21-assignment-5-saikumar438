@@ -1,135 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Plants</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Plants</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        .comp {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around
+        }
+    </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand" href="plants.html">Happy Plants</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="cat.html">CAT</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="dog.html">DOG</a>
-            </li>
-          </ul>
-        
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="cat.html">CAT</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="dog.html">DOG</a>
+                </li>
+            </ul>
+
         </div>
-      </nav>
-        <h1>Plants by Saikumar Mylavarapu</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2">M</div>
-                <div class="col-sm-2">Y</div>
-                <div class="col-sm-2">L</div>
-                <div class="col-sm-2">A</div>
-                <div class="col-sm-2">V</div>
-                <div class="col-sm-2">A</div>
+    </nav>
+    <h1>Plants by Saikumar Mylavarapu</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">M</div>
+            <div class="col-sm-2">Y</div>
+            <div class="col-sm-2">L</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">V</div>
+            <div class="col-sm-2">A</div>
+        </div>
+        <div class="row">
+            <div class="col-md">MADAGASCAR JASMINE.</div>
+            <div class="col-md">YELLOWROOT.</div>
+            <div class="col-md">LADY PALM.</div>
+            <div class="col-md">Abroma.</div>
+            <div class="col-md">VACCINIUM.</div>
+            <div class="col-md">Abrus.</div>
+        </div>
+        <div>
+            Plants row will Shrink first because when we use .col-md class this would work for medium devices
+            i.e., screenwidth having 768px and greater. When we resize the browser and screenwidth reaches break point
+            768px the row remains intact and Shrinks for screen devices width less than 768px. In similar fashion the
+            letters row will shrink for extra small devices having width less than 576px.
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-4 col-md-4">
+                <img src="abroma.jpg" width="180px" height="250px">
             </div>
-            <div class="row">
-                <div class="col-md">MADAGASCAR JASMINE.</div>
-                <div class="col-md">YELLOWROOT.</div>
-                <div class="col-md">LADY PALM.</div>
-                <div class="col-md">Abroma.</div>
-                <div class="col-md">VACCINIUM.</div>
-                <div class="col-md">Abrus.</div>
+            <div class="col-sm-4 col-md-4">
+                <img src="abrus.jpg" width="180px" height="250px">
             </div>
-            <div>
-                Plants row will Shrink first because when we use .col-md class this would work for medium devices 
-                i.e., screenwidth having 768px  and greater. When we resize the browser and screenwidth reaches break point
-                768px the row remains intact and Shrinks for screen devices width less than 768px. In similar fashion the 
-                letters row will shrink for extra small devices having width less than 576px.
+            <div class="col-sm-4 col-md-4">
+                <img src="jasmine.jpg" width="180px" height="250px">
             </div>
 
-            <div class="row">
-                             
-                <div class="col-sm-4 col-md-4">
-                    <img src="abroma.jpg" width="180px" height="250px" >
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <img src="abrus.jpg" width="180px" height="250px" >
-                </div>
-                <div class="col-sm-4 col-md-4">
-                    <img src="jasmine.jpg" width="180px" height="250px">
-                </div>
-                
+        </div>
+        <div class="row">
+
+            <div class="img-thumbnail">
+                <img src="abroma.jpg" width="180px" height="250px">
             </div>
-            <div class="row">
-                             
-                <div class="img-thumbnail">
-                    <img src="abroma.jpg" width="180px" height="250px" >
-                </div>
-                <div class="img-thumbnail">
-                    <img src="abrus.jpg" width="180px" height="250px" >
-                </div>
-                <div class="img-thumbnail">
-                    <img src="jasmine.jpg" width="180px" height="250px">
-                </div>
-                
+            <div class="img-thumbnail">
+                <img src="abrus.jpg" width="180px" height="250px">
             </div>
-            <div>
-                <table class="table table-hover table table-striped table table-bordered ">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th scope="col">Letter</th>
-                            <th scope="col">Plant</th>
-                            <th scope="col">City</th>
-                            <th scope="col">Food</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class ="table-success ">
-                            <th scope="row">M</th>
-                            <td>MADAGASCAR JASMINE</td>
-                            <td>Mumbai</td>
-                            <td>Milk</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">Y</th>
-                            <td>YELLOWROOT</td>
-                            <td>Yadgir</td>
-                            <td>Yogurt</td>
-                        </tr>
-                        <tr class="table-info">
-                            <th scope="row">L</th>
-                            <td>LADY PALM</td>
-                            <td>Ladhak</td>
-                            <td>Lentils</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">A</th>
-                            <td>Abroma</th>
-                            <td>Amaravati</th>
-                            <td>Almonds</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">V</th>
-                            <td>VACCINIUM</th>
-                            <td>Vadodara</th>
-                            <td>Velvet Beans</th>
-                        </tr>
-                        <tr class="table-danger">
-                            <th scope="row">A</th>
-                            <td>Abroma</th>
-                            <td>Amritsar</th>
-                            <td>Apples</th>
-                        </tr>
-                    </tbody>
-                    
-                </table>
+            <div class="img-thumbnail">
+                <img src="jasmine.jpg" width="180px" height="250px">
+            </div>
+
+        </div>
+        <div>
+            <table class="table table-hover table table-striped table table-bordered ">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Letter</th>
+                        <th scope="col">Plant</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Food</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-success ">
+                        <th scope="row">M</th>
+                        <td>MADAGASCAR JASMINE</td>
+                        <td>Mumbai</td>
+                        <td>Milk</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Y</th>
+                        <td>YELLOWROOT</td>
+                        <td>Yadgir</td>
+                        <td>Yogurt</td>
+                    </tr>
+                    <tr class="table-info">
+                        <th scope="row">L</th>
+                        <td>LADY PALM</td>
+                        <td>Ladhak</td>
+                        <td>Lentils</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">A</th>
+                        <td>Abroma</td>
+                        <td>Amaravati</td>
+                        <td>Almonds</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">V</th>
+                        <td>VACCINIUM</td>
+                        <td>Vadodara</td>
+                        <td>Velvet Beans</td>
+                    </tr>
+                    <tr class="table-danger">
+                        <th scope="row">A</th>
+                        <td>Abroma</td>
+                        <td>Amritsar</td>
+                        <td>Apples</td>
+                    </tr>
+                </tbody>
+
+            </table>
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                
+
                 <div class="btn-group " role="group" aria-label="Basic example">
                     <button type="button" class="btn btn-secondary btn btn-success">M</button>
                     <button type="button" class="btn btn-secondary btn btn-success">A</button>
@@ -145,67 +155,76 @@
             </div>
 
 
-            </div>
-
-            
         </div>
-        <div class="btn-group" role="group" aria-label="dropdown">
-          <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+
+    </div>
+    <div class="btn-group" role="group" aria-label="dropdown">
+        <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
             <a class="dropdown-item" href="cat.html" style="background-color: lightblue">CAT</a>
             <a class="dropdown-item" href="dog.html" style="background-color: dimgrey; color:white">DOG</a>
-          </div>
         </div>
-        
-        <form>
-          <div class="form-group">
+    </div>
+
+    <form>
+        <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="width: 500px;">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1" >Plant</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant" style="width: 500px;">
-          </div>
-          <div class="form-check">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email" style="width: 500px;">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Plant</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant"
+                style="width: 500px;">
+        </div>
+        <div class="form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
-            
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        
+
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <div class="comp">
         <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="jasmine.jpg" alt="MADAGASCAR jasmine">
-          <div class="card-body">
-            <h5 class="card-title">MADAGASCAR JASMINE</h5>
-            <p class="card-text">The Jasmine plant is commonly used for bridal bouquets and wreaths. 
-              This is because of the small white attractive blooms which match the white wedding look needed, 
-              and the stems winding around wire hoops, create a perfect wreath.</p>
-            <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk02vyF1U0lqgqqAzjTifZPkhmFMIXQ%3A1614210195295&ei=k-Q2YOPKEc2c_QaRw4qwCg&q=madagascar+jasmine&oq=madagascar+jasmine&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoKCCMQsAMQyQMQJzoHCAAQRxCwAzoHCC4QhwIQFFDuR1iwTWDdUmgBcAJ4AIAB1AKIAb4IkgEHMi4xLjIuMZgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&ved=0ahUKEwij4KHK2YPvAhVNTt8KHZGhAqYQ4dUDCA0&uact=5" class="btn btn-primary">Jasmine</a>
-          </div>
+            <img class="card-img-top" src="jasmine.jpg" alt="MADAGASCAR jasmine">
+            <div class="card-body">
+                <h5 class="card-title">MADAGASCAR JASMINE</h5>
+                <p class="card-text">The Jasmine plant is commonly used for bridal bouquets and wreaths.
+                    This is because of the small white attractive blooms which match the white wedding look needed,
+                    and the stems winding around wire hoops, create a perfect wreath.</p>
+                <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk02vyF1U0lqgqqAzjTifZPkhmFMIXQ%3A1614210195295&ei=k-Q2YOPKEc2c_QaRw4qwCg&q=madagascar+jasmine&oq=madagascar+jasmine&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoKCCMQsAMQyQMQJzoHCAAQRxCwAzoHCC4QhwIQFFDuR1iwTWDdUmgBcAJ4AIAB1AKIAb4IkgEHMi4xLjIuMZgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&ved=0ahUKEwij4KHK2YPvAhVNTt8KHZGhAqYQ4dUDCA0&uact=5"
+                    class="btn btn-primary">Jasmine</a>
+            </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="abroma.jpg" alt="Abroma">
-          <div class="card-body">
-            <h5 class="card-title">Abroma</h5>
-            <p class="card-text">It is used in diabetes insipidus with very gratifying results. 
-              Clinically it is indicated in Diabetes, albuminuria, enuresis, debility, vertigo, 
-              sleeplessness, carbuncle, amenorrhoea and dysmenorrhoea</p>
-            <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk02vyF1U0lqgqqAzjTifZPkhmFMIXQ%3A1614210195295&ei=k-Q2YOPKEc2c_QaRw4qwCg&q=madagascar+jasmine&oq=madagascar+jasmine&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoKCCMQsAMQyQMQJzoHCAAQRxCwAzoHCC4QhwIQFFDuR1iwTWDdUmgBcAJ4AIAB1AKIAb4IkgEHMi4xLjIuMZgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&ved=0ahUKEwij4KHK2YPvAhVNTt8KHZGhAqYQ4dUDCA0&uact=5" class="btn btn-primary">Abroma</a>
-          </div>
+            <img class="card-img-top" src="abroma.jpg" alt="Abroma">
+            <div class="card-body">
+                <h5 class="card-title">Abroma</h5>
+                <p class="card-text">It is used in diabetes insipidus with very gratifying results.
+                    Clinically it is indicated in Diabetes, albuminuria, enuresis, debility, vertigo,
+                    sleeplessness, carbuncle, amenorrhoea and dysmenorrhoea</p>
+                <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk02vyF1U0lqgqqAzjTifZPkhmFMIXQ%3A1614210195295&ei=k-Q2YOPKEc2c_QaRw4qwCg&q=madagascar+jasmine&oq=madagascar+jasmine&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBQgAEMkDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoKCCMQsAMQyQMQJzoHCAAQRxCwAzoHCC4QhwIQFFDuR1iwTWDdUmgBcAJ4AIAB1AKIAb4IkgEHMi4xLjIuMZgBAKABAaoBB2d3cy13aXrIAQnAAQE&sclient=gws-wiz&ved=0ahUKEwij4KHK2YPvAhVNTt8KHZGhAqYQ4dUDCA0&uact=5"
+                    class="btn btn-primary">Abroma</a>
+            </div>
         </div>
         <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="abrus.jpg" alt="Abrus">
-          <div class="card-body">
-            <h5 class="card-title">Abrus</h5>
-            <p class="card-text">The plant is used in some traditional medicine to treat scratches and sores and wounds caused by dogs, 
-              cats and mice, and are also used with other ingredients to treat leucoderma. 
-              The leaves of the herb are used to cure fever, cough and cold.</p>
-            <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk02dfn_ovkbMFF19J9X3Vcufe-zEVg%3A1614210206873&ei=nuQ2YMTnNMG7gge_yYGwCA&q=abrus+uses&oq=abrus+uses&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBQgAEIYDOgQIIxAnOgQILhBDOggILhDHARCjAjoICAAQsQMQgwE6BQguEJECOgQIABBDOgIIADoHCC4QsQMQQzoFCAAQsQM6BQguELEDOggILhCxAxCRAjoFCAAQkQI6CggAELEDELEDEAo6BwgAELEDEAo6BAgAEAo6CAguEMcBEK8BOgsILhCxAxCRAhCTAjoCCC46CAgAEBYQChAeUPH8EljklhNg3ZgTaABwAngAgAHNBIgB-xOSAQswLjQuMi4xLjAuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjEruTP2YPvAhXBneAKHb9kAIYQ4dUDCA0&uact=5" class="btn btn-primary">Abrus</a>
-          </div>
+            <img class="card-img-top" src="abrus.jpg" alt="Abrus">
+            <div class="card-body">
+                <h5 class="card-title">Abrus</h5>
+                <p class="card-text">The plant is used in some traditional medicine to treat scratches and sores and
+                    wounds caused by dogs,
+                    cats and mice, and are also used with other ingredients to treat leucoderma.
+                    The leaves of the herb are used to cure fever, cough and cold.</p>
+                <a href="https://www.google.com/search?rlz=1C1GCEA_enUS936US936&sxsrf=ALeKk02dfn_ovkbMFF19J9X3Vcufe-zEVg%3A1614210206873&ei=nuQ2YMTnNMG7gge_yYGwCA&q=abrus+uses&oq=abrus+uses&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBQgAEIYDOgQIIxAnOgQILhBDOggILhDHARCjAjoICAAQsQMQgwE6BQguEJECOgQIABBDOgIIADoHCC4QsQMQQzoFCAAQsQM6BQguELEDOggILhCxAxCRAjoFCAAQkQI6CggAELEDELEDEAo6BwgAELEDEAo6BAgAEAo6CAguEMcBEK8BOgsILhCxAxCRAhCTAjoCCC46CAgAEBYQChAeUPH8EljklhNg3ZgTaABwAngAgAHNBIgB-xOSAQswLjQuMi4xLjAuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=gws-wiz&ved=0ahUKEwjEruTP2YPvAhXBneAKHb9kAIYQ4dUDCA0&uact=5"
+                    class="btn btn-primary">Abrus</a>
+            </div>
         </div>
-        </body>
+    </div>
+</body>
 
 </html>
